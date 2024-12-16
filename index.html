@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Blog Post</h1>
+            <p>Write, edit, and share your thoughts effortlessly!</p>
+        </header>
+        <main>
+            <section id="add-post-section">
+                <h2>Add New Post</h2>
+                <form id="add-post-form">
+                    <input type="text" id="title" placeholder="Post Title" required />
+                    <textarea id="body" placeholder="Write your post here..." required></textarea>
+                    <button type="submit">Add Post</button>
+                </form>
+            </section>
+            <section id="post-list-section">
+                <h2>All Posts</h2>
+                <div id="post-list"></div>
+            </section>
+        </main>
+            <footer>
+        <p>&copy; 2024 BSIT 3-4 Blog Post Website</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
